@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Inventario_PeliculasModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="cargo">
+    <Key>
+      <PropertyRef Name="id_cargo" />
+    </Key>
+    <Property Name="id_cargo" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="nombre_cargo" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="usuario" Relationship="Self.FK__usuario__id_carg__267ABA7A" FromRole="cargo" ToRole="usuario" />
+  </EntityType>
+  <EntityType Name="login">
+    <Key>
+      <PropertyRef Name="id_login" />
+    </Key>
+    <Property Name="id_login" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="rut_usuario" Type="String" MaxLength="13" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="clave" Type="String" MaxLength="12" FixedLength="false" Unicode="false" Nullable="false" />
+  </EntityType>
+  <EntityType Name="pelicula">
+    <Key>
+      <PropertyRef Name="id_pelicula" />
+    </Key>
+    <Property Name="id_pelicula" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="nombre_pelicula" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="año_pelicula" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="duracion_pelicula" Type="String" MaxLength="5" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="pais_pelicula" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="direccion_pelicula" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="reparto_pelicula" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="productora_pelicula" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="genero_pelicula" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="tamaño_pelicula" Type="String" MaxLength="30" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="formato_pelicula" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="idioma_principal" Type="String" MaxLength="30" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="idioma_secundario" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="resolucion_pelicula" Type="String" MaxLength="30" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="subtitulos_pelicula" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="serie">
+    <Key>
+      <PropertyRef Name="id_serie" />
+    </Key>
+    <Property Name="id_serie" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="nombre_serie" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="año_serie" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="duracion_serie" Type="String" MaxLength="5" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="pais_serie" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="direccion_serie" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="reparto_serie" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="productora_serie" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="genero_serie" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="tamaño_serie" Type="String" MaxLength="30" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="formato_serie" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="idioma_principal" Type="String" MaxLength="30" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="idioma_secundario" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="resolucion_serie" Type="String" MaxLength="30" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="subtitulos_serie" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="usuario">
+    <Key>
+      <PropertyRef Name="id_usuario" />
+    </Key>
+    <Property Name="id_usuario" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="rut_usuario" Type="String" MaxLength="13" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="nombres_usuario" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="apellido_usuario" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="telefono" Type="String" MaxLength="15" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="id_cargo" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="cargo" Relationship="Self.FK__usuario__id_carg__267ABA7A" FromRole="usuario" ToRole="cargo" />
+  </EntityType>
+  <Association Name="FK__usuario__id_carg__267ABA7A">
+    <End Role="cargo" Type="Self.cargo" Multiplicity="1" />
+    <End Role="usuario" Type="Self.usuario" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="cargo">
+        <PropertyRef Name="id_cargo" />
+      </Principal>
+      <Dependent Role="usuario">
+        <PropertyRef Name="id_cargo" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="Inventario_PeliculasEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="cargo" EntityType="Self.cargo" />
+    <EntitySet Name="login" EntityType="Self.login" />
+    <EntitySet Name="pelicula" EntityType="Self.pelicula" />
+    <EntitySet Name="serie" EntityType="Self.serie" />
+    <EntitySet Name="usuario" EntityType="Self.usuario" />
+    <AssociationSet Name="FK__usuario__id_carg__267ABA7A" Association="Self.FK__usuario__id_carg__267ABA7A">
+      <End Role="cargo" EntitySet="cargo" />
+      <End Role="usuario" EntitySet="usuario" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

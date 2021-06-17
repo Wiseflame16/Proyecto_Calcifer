@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Inventario_PeliculasModelStoreContainer" CdmEntityContainer="Inventario_PeliculasEntities">
+    <EntitySetMapping Name="cargo">
+      <EntityTypeMapping TypeName="Inventario_PeliculasModel.cargo">
+        <MappingFragment StoreEntitySet="cargo">
+          <ScalarProperty Name="id_cargo" ColumnName="id_cargo" />
+          <ScalarProperty Name="nombre_cargo" ColumnName="nombre_cargo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="login">
+      <EntityTypeMapping TypeName="Inventario_PeliculasModel.login">
+        <MappingFragment StoreEntitySet="login">
+          <ScalarProperty Name="id_login" ColumnName="id_login" />
+          <ScalarProperty Name="rut_usuario" ColumnName="rut_usuario" />
+          <ScalarProperty Name="clave" ColumnName="clave" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="pelicula">
+      <EntityTypeMapping TypeName="Inventario_PeliculasModel.pelicula">
+        <MappingFragment StoreEntitySet="pelicula">
+          <ScalarProperty Name="id_pelicula" ColumnName="id_pelicula" />
+          <ScalarProperty Name="nombre_pelicula" ColumnName="nombre_pelicula" />
+          <ScalarProperty Name="año_pelicula" ColumnName="año_pelicula" />
+          <ScalarProperty Name="duracion_pelicula" ColumnName="duracion_pelicula" />
+          <ScalarProperty Name="pais_pelicula" ColumnName="pais_pelicula" />
+          <ScalarProperty Name="direccion_pelicula" ColumnName="direccion_pelicula" />
+          <ScalarProperty Name="reparto_pelicula" ColumnName="reparto_pelicula" />
+          <ScalarProperty Name="productora_pelicula" ColumnName="productora_pelicula" />
+          <ScalarProperty Name="genero_pelicula" ColumnName="genero_pelicula" />
+          <ScalarProperty Name="tamaño_pelicula" ColumnName="tamaño_pelicula" />
+          <ScalarProperty Name="formato_pelicula" ColumnName="formato_pelicula" />
+          <ScalarProperty Name="idioma_principal" ColumnName="idioma_principal" />
+          <ScalarProperty Name="idioma_secundario" ColumnName="idioma_secundario" />
+          <ScalarProperty Name="resolucion_pelicula" ColumnName="resolucion_pelicula" />
+          <ScalarProperty Name="subtitulos_pelicula" ColumnName="subtitulos_pelicula" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="serie">
+      <EntityTypeMapping TypeName="Inventario_PeliculasModel.serie">
+        <MappingFragment StoreEntitySet="serie">
+          <ScalarProperty Name="id_serie" ColumnName="id_serie" />
+          <ScalarProperty Name="nombre_serie" ColumnName="nombre_serie" />
+          <ScalarProperty Name="año_serie" ColumnName="año_serie" />
+          <ScalarProperty Name="duracion_serie" ColumnName="duracion_serie" />
+          <ScalarProperty Name="pais_serie" ColumnName="pais_serie" />
+          <ScalarProperty Name="direccion_serie" ColumnName="direccion_serie" />
+          <ScalarProperty Name="reparto_serie" ColumnName="reparto_serie" />
+          <ScalarProperty Name="productora_serie" ColumnName="productora_serie" />
+          <ScalarProperty Name="genero_serie" ColumnName="genero_serie" />
+          <ScalarProperty Name="tamaño_serie" ColumnName="tamaño_serie" />
+          <ScalarProperty Name="formato_serie" ColumnName="formato_serie" />
+          <ScalarProperty Name="idioma_principal" ColumnName="idioma_principal" />
+          <ScalarProperty Name="idioma_secundario" ColumnName="idioma_secundario" />
+          <ScalarProperty Name="resolucion_serie" ColumnName="resolucion_serie" />
+          <ScalarProperty Name="subtitulos_serie" ColumnName="subtitulos_serie" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="usuario">
+      <EntityTypeMapping TypeName="Inventario_PeliculasModel.usuario">
+        <MappingFragment StoreEntitySet="usuario">
+          <ScalarProperty Name="id_usuario" ColumnName="id_usuario" />
+          <ScalarProperty Name="rut_usuario" ColumnName="rut_usuario" />
+          <ScalarProperty Name="nombres_usuario" ColumnName="nombres_usuario" />
+          <ScalarProperty Name="apellido_usuario" ColumnName="apellido_usuario" />
+          <ScalarProperty Name="telefono" ColumnName="telefono" />
+          <ScalarProperty Name="id_cargo" ColumnName="id_cargo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

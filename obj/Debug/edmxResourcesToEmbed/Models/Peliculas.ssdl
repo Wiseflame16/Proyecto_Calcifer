@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Inventario_PeliculasModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="cargo">
+    <Key>
+      <PropertyRef Name="id_cargo" />
+    </Key>
+    <Property Name="id_cargo" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="nombre_cargo" Type="varchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="login">
+    <Key>
+      <PropertyRef Name="id_login" />
+    </Key>
+    <Property Name="id_login" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="rut_usuario" Type="varchar" MaxLength="13" Nullable="false" />
+    <Property Name="clave" Type="varchar" MaxLength="12" Nullable="false" />
+  </EntityType>
+  <EntityType Name="pelicula">
+    <Key>
+      <PropertyRef Name="id_pelicula" />
+    </Key>
+    <Property Name="id_pelicula" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="nombre_pelicula" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="año_pelicula" Type="varchar" MaxLength="10" />
+    <Property Name="duracion_pelicula" Type="varchar" MaxLength="5" Nullable="false" />
+    <Property Name="pais_pelicula" Type="varchar" MaxLength="30" />
+    <Property Name="direccion_pelicula" Type="varchar" MaxLength="50" />
+    <Property Name="reparto_pelicula" Type="varchar" MaxLength="100" />
+    <Property Name="productora_pelicula" Type="varchar" MaxLength="100" />
+    <Property Name="genero_pelicula" Type="varchar" MaxLength="100" />
+    <Property Name="tamaño_pelicula" Type="varchar" MaxLength="30" Nullable="false" />
+    <Property Name="formato_pelicula" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="idioma_principal" Type="varchar" MaxLength="30" Nullable="false" />
+    <Property Name="idioma_secundario" Type="varchar" MaxLength="30" />
+    <Property Name="resolucion_pelicula" Type="varchar" MaxLength="30" Nullable="false" />
+    <Property Name="subtitulos_pelicula" Type="varchar" MaxLength="30" />
+  </EntityType>
+  <EntityType Name="serie">
+    <Key>
+      <PropertyRef Name="id_serie" />
+    </Key>
+    <Property Name="id_serie" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="nombre_serie" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="año_serie" Type="varchar" MaxLength="10" />
+    <Property Name="duracion_serie" Type="varchar" MaxLength="5" Nullable="false" />
+    <Property Name="pais_serie" Type="varchar" MaxLength="30" />
+    <Property Name="direccion_serie" Type="varchar" MaxLength="50" />
+    <Property Name="reparto_serie" Type="varchar" MaxLength="100" />
+    <Property Name="productora_serie" Type="varchar" MaxLength="100" />
+    <Property Name="genero_serie" Type="varchar" MaxLength="100" />
+    <Property Name="tamaño_serie" Type="varchar" MaxLength="30" Nullable="false" />
+    <Property Name="formato_serie" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="idioma_principal" Type="varchar" MaxLength="30" Nullable="false" />
+    <Property Name="idioma_secundario" Type="varchar" MaxLength="30" />
+    <Property Name="resolucion_serie" Type="varchar" MaxLength="30" Nullable="false" />
+    <Property Name="subtitulos_serie" Type="varchar" MaxLength="30" />
+  </EntityType>
+  <EntityType Name="usuario">
+    <Key>
+      <PropertyRef Name="id_usuario" />
+    </Key>
+    <Property Name="id_usuario" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="rut_usuario" Type="varchar" MaxLength="13" Nullable="false" />
+    <Property Name="nombres_usuario" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="apellido_usuario" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="telefono" Type="varchar" MaxLength="15" Nullable="false" />
+    <Property Name="id_cargo" Type="int" Nullable="false" />
+  </EntityType>
+  <Association Name="FK__usuario__id_carg__267ABA7A">
+    <End Role="cargo" Type="Self.cargo" Multiplicity="1" />
+    <End Role="usuario" Type="Self.usuario" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="cargo">
+        <PropertyRef Name="id_cargo" />
+      </Principal>
+      <Dependent Role="usuario">
+        <PropertyRef Name="id_cargo" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="Inventario_PeliculasModelStoreContainer">
+    <EntitySet Name="cargo" EntityType="Self.cargo" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="login" EntityType="Self.login" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="pelicula" EntityType="Self.pelicula" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="serie" EntityType="Self.serie" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="usuario" EntityType="Self.usuario" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK__usuario__id_carg__267ABA7A" Association="Self.FK__usuario__id_carg__267ABA7A">
+      <End Role="cargo" EntitySet="cargo" />
+      <End Role="usuario" EntitySet="usuario" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

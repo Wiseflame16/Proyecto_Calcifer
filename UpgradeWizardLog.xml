@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="_UpgradeWizard_Files\UpgradeWizardLog.xslt"?>
+<log>
+  <event>Get project references.</event>
+  <event action="Analyze" type="Success" name="Assembly References" path="C:\Users\wisef\source\repos\Peliculas\Peliculas.csproj" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" name="Assembly References" path="C:\Users\wisef\source\repos\Peliculas\packages.config" />
+  <event action="Analyze" type="Success" name="Http Handlers" path="C:\Users\wisef\source\repos\Peliculas\packages.config" />
+  <event action="Analyze" type="Success" name="Handlers (IIS7+)" path="C:\Users\wisef\source\repos\Peliculas\packages.config" />
+  <event action="Analyze" type="Success" name="Config Sections" path="C:\Users\wisef\source\repos\Peliculas\packages.config" />
+  <event action="Analyze" type="Success" name="Render Extensions" path="C:\Users\wisef\source\repos\Peliculas\packages.config" />
+  <event action="Analyze" type="Success" name="Session State Providers" path="C:\Users\wisef\source\repos\Peliculas\packages.config" />
+  <event action="Analyze" type="Success" name="packages.config" path="C:\Users\wisef\source\repos\Peliculas\packages.config" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\wisef\source\repos\Peliculas\Views\_ViewStart.cshtml" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\wisef\source\repos\Peliculas\Views\_ViewStart.cshtml" />
+  <event action="Analyze" type="Success" name="_ViewStart.cshtml" path="C:\Users\wisef\source\repos\Peliculas\Views\_ViewStart.cshtml" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\wisef\source\repos\Peliculas\Views\Cargo\Index.cshtml" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\wisef\source\repos\Peliculas\Views\Cargo\Index.cshtml" />
+  <event action="Analyze" type="Success" name="Index.cshtml" path="C:\Users\wisef\source\repos\Peliculas\Views\Cargo\Index.cshtml" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\wisef\source\repos\Peliculas\Views\Cargo\ListaMaestraCargos.cshtml" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\wisef\source\repos\Peliculas\Views\Cargo\ListaMaestraCargos.cshtml" />
+  <event action="Analyze" type="Success" name="ListaMaestraCargos.cshtml" path="C:\Users\wisef\source\repos\Peliculas\Views\Cargo\ListaMaestraCargos.cshtml" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\wisef\source\repos\Peliculas\Views\Cargo\ListarUsuarioNombre.cshtml" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\wisef\source\repos\Peliculas\Views\Cargo\ListarUsuarioNombre.cshtml" />
+  <event action="Analyze" type="Success" name="ListarUsuarioNombre.cshtml" path="C:\Users\wisef\source\repos\Peliculas\Views\Cargo\ListarUsuarioNombre.cshtml" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\wisef\source\repos\Peliculas\Views\Cargo\Peliculas.cshtml" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\wisef\source\repos\Peliculas\Views\Cargo\Peliculas.cshtml" />
+  <event action="Analyze" type="Success" name="Peliculas.cshtml" path="C:\Users\wisef\source\repos\Peliculas\Views\Cargo\Peliculas.cshtml" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\wisef\source\repos\Peliculas\Views\Home\About.cshtml" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\wisef\source\repos\Peliculas\Views\Home\About.cshtml" />
+  <event action="Analyze" type="Success" name="About.cshtml" path="C:\Users\wisef\source\repos\Peliculas\Views\Home\About.cshtml" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\wisef\source\repos\Peliculas\Views\Home\Animes.cshtml" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\wisef\source\repos\Peliculas\Views\Home\Animes.cshtml" />
+  <event action="Analyze" type="Success" name="Animes.cshtml" path="C:\Users\wisef\source\repos\Peliculas\Views\Home\Animes.cshtml" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\wisef\source\repos\Peliculas\Views\Home\Contact.cshtml" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\wisef\source\repos\Peliculas\Views\Home\Contact.cshtml" />
+  <event action="Analyze" type="Success" name="Contact.cshtml" path="C:\Users\wisef\source\repos\Peliculas\Views\Home\Contact.cshtml" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\wisef\source\repos\Peliculas\Views\Home\Documentales.cshtml" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\wisef\source\repos\Peliculas\Views\Home\Documentales.cshtml" />
+  <event action="Analyze" type="Success" name="Documentales.cshtml" path="C:\Users\wisef\source\repos\Peliculas\Views\Home\Documentales.cshtml" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\wisef\source\repos\Peliculas\Views\Home\Index.cshtml" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\wisef\source\repos\Peliculas\Views\Home\Index.cshtml" />
+  <event action="Analyze" type="Success" name="Index.cshtml" path="C:\Users\wisef\source\repos\Peliculas\Views\Home\Index.cshtml" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\wisef\source\repos\Peliculas\Views\Home\Peliculas.cshtml" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\wisef\source\repos\Peliculas\Views\Home\Peliculas.cshtml" />
+  <event action="Analyze" type="Success" name="Peliculas.cshtml" path="C:\Users\wisef\source\repos\Peliculas\Views\Home\Peliculas.cshtml" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\wisef\source\repos\Peliculas\Views\Home\Series.cshtml" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\wisef\source\repos\Peliculas\Views\Home\Series.cshtml" />
+  <event action="Analyze" type="Success" name="Series.cshtml" path="C:\Users\wisef\source\repos\Peliculas\Views\Home\Series.cshtml" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\wisef\source\repos\Peliculas\Views\MantenimientoCargo\Create.cshtml" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\wisef\source\repos\Peliculas\Views\MantenimientoCargo\Create.cshtml" />
+  <event action="Analyze" type="Success" name="Create.cshtml" path="C:\Users\wisef\source\repos\Peliculas\Views\MantenimientoCargo\Create.cshtml" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\wisef\source\repos\Peliculas\Views\MantenimientoCargo\Delete.cshtml" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\wisef\source\repos\Peliculas\Views\MantenimientoCargo\Delete.cshtml" />
+  <event action="Analyze" type="Success" name="Delete.cshtml" path="C:\Users\wisef\source\repos\Peliculas\Views\MantenimientoCargo\Delete.cshtml" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\wisef\source\repos\Peliculas\Views\MantenimientoCargo\Details.cshtml" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\wisef\source\repos\Peliculas\Views\MantenimientoCargo\Details.cshtml" />
+  <event action="Analyze" type="Success" name="Details.cshtml" path="C:\Users\wisef\source\repos\Peliculas\Views\MantenimientoCargo\Details.cshtml" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\wisef\source\repos\Peliculas\Views\MantenimientoCargo\Edit.cshtml" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\wisef\source\repos\Peliculas\Views\MantenimientoCargo\Edit.cshtml" />
+  <event action="Analyze" type="Success" name="Edit.cshtml" path="C:\Users\wisef\source\repos\Peliculas\Views\MantenimientoCargo\Edit.cshtml" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\wisef\source\repos\Peliculas\Views\MantenimientoCargo\Index.cshtml" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\wisef\source\repos\Peliculas\Views\MantenimientoCargo\Index.cshtml" />
+  <event action="Analyze" type="Success" name="Index.cshtml" path="C:\Users\wisef\source\repos\Peliculas\Views\MantenimientoCargo\Index.cshtml" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\wisef\source\repos\Peliculas\Views\Shared\_Layout.cshtml" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\wisef\source\repos\Peliculas\Views\Shared\_Layout.cshtml" />
+  <event action="Analyze" type="Success" name="_Layout.cshtml" path="C:\Users\wisef\source\repos\Peliculas\Views\Shared\_Layout.cshtml" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\wisef\source\repos\Peliculas\Views\Shared\Error.cshtml" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\wisef\source\repos\Peliculas\Views\Shared\Error.cshtml" />
+  <event action="Analyze" type="Success" name="Error.cshtml" path="C:\Users\wisef\source\repos\Peliculas\Views\Shared\Error.cshtml" />
+  <event action="Analyze" type="Success" name="Assembly References" path="C:\Users\wisef\source\repos\Peliculas\Views\Web.config" />
+  <event action="Analyze" type="Success" name="Http Handlers" path="C:\Users\wisef\source\repos\Peliculas\Views\Web.config" />
+  <event action="Analyze" type="Success" name="Handlers (IIS7+)" path="C:\Users\wisef\source\repos\Peliculas\Views\Web.config" />
+  <event action="Analyze" type="Success" name="Config Sections" path="C:\Users\wisef\source\repos\Peliculas\Views\Web.config" />
+  <event action="Analyze" type="Success" name="Render Extensions" path="C:\Users\wisef\source\repos\Peliculas\Views\Web.config" />
+  <event action="Analyze" type="Success" name="Session State Providers" path="C:\Users\wisef\source\repos\Peliculas\Views\Web.config" />
+  <event action="Analyze" type="Success" name="Web.config" path="C:\Users\wisef\source\repos\Peliculas\Views\Web.config" />
+  <event action="Analyze" type="Success" name="Assembly References" path="C:\Users\wisef\source\repos\Peliculas\Web.config" />
+  <event action="Analyze" type="Success" name="Http Handlers" path="C:\Users\wisef\source\repos\Peliculas\Web.config" />
+  <event action="Analyze" type="Success" name="Handlers (IIS7+)" path="C:\Users\wisef\source\repos\Peliculas\Web.config" />
+  <event action="Analyze" type="Success" name="Config Sections" path="C:\Users\wisef\source\repos\Peliculas\Web.config" />
+  <event action="Analyze" type="Success" name="Render Extensions" path="C:\Users\wisef\source\repos\Peliculas\Web.config" />
+  <event action="Analyze" type="Success" name="Session State Providers" path="C:\Users\wisef\source\repos\Peliculas\Web.config" />
+  <event action="Analyze" type="Success" name="Web.config" path="C:\Users\wisef\source\repos\Peliculas\Web.config" />
+  <event action="Analyze" type="Success" name="Assembly References" path="C:\Users\wisef\source\repos\Peliculas\Web.Debug.config" />
+  <event action="Analyze" type="Success" name="Http Handlers" path="C:\Users\wisef\source\repos\Peliculas\Web.Debug.config" />
+  <event action="Analyze" type="Success" name="Handlers (IIS7+)" path="C:\Users\wisef\source\repos\Peliculas\Web.Debug.config" />
+  <event action="Analyze" type="Success" name="Config Sections" path="C:\Users\wisef\source\repos\Peliculas\Web.Debug.config" />
+  <event action="Analyze" type="Success" name="Render Extensions" path="C:\Users\wisef\source\repos\Peliculas\Web.Debug.config" />
+  <event action="Analyze" type="Success" name="Session State Providers" path="C:\Users\wisef\source\repos\Peliculas\Web.Debug.config" />
+  <event action="Analyze" type="Success" name="Web.Debug.config" path="C:\Users\wisef\source\repos\Peliculas\Web.Debug.config" />
+  <event action="Analyze" type="Success" name="Assembly References" path="C:\Users\wisef\source\repos\Peliculas\Web.Release.config" />
+  <event action="Analyze" type="Success" name="Http Handlers" path="C:\Users\wisef\source\repos\Peliculas\Web.Release.config" />
+  <event action="Analyze" type="Success" name="Handlers (IIS7+)" path="C:\Users\wisef\source\repos\Peliculas\Web.Release.config" />
+  <event action="Analyze" type="Success" name="Config Sections" path="C:\Users\wisef\source\repos\Peliculas\Web.Release.config" />
+  <event action="Analyze" type="Success" name="Render Extensions" path="C:\Users\wisef\source\repos\Peliculas\Web.Release.config" />
+  <event action="Analyze" type="Success" name="Session State Providers" path="C:\Users\wisef\source\repos\Peliculas\Web.Release.config" />
+  <event action="Analyze" type="Success" name="Web.Release.config" path="C:\Users\wisef\source\repos\Peliculas\Web.Release.config" />
+  <event action="Analyze" type="Success" name="Peliculas" path="C:\Users\wisef\source\repos\Peliculas\Peliculas.csproj" />
+  <event action="Analyze" type="Success" name="Peliculas" path="C:\Users\wisef\source\repos\Peliculas\Peliculas.sln" />
+</log>

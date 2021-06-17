@@ -1,0 +1,36 @@
+﻿@model IEnumerable<Peliculas.Models.cargo>
+
+@{
+    ViewBag.Title = "Lista Cargos";
+}
+
+<h2>Lista Cargos</h2>
+<br />
+
+<p>
+    esta vista muestra todos los cargos
+</p>
+<br />
+<table class="table">
+    <tr>
+        <th>
+            ID
+        </th>
+        <th>
+            Cargo
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modeItem => item.id_cargo)
+        </td>
+        <td>
+            @Html.DisplayFor(modeItem => item.nombre_cargo)
+        </td>
+    </tr>
+}
+
+</table>
